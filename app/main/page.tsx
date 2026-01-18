@@ -219,7 +219,6 @@ export default function MainPage() {
                                     className="input"
                                     value={editNameValue}
                                     onChange={e => setEditNameValue(e.target.value)}
-                                    className="input" // Duplicate generic className removed in favor of explicit style if needed, but keeping existing structure
                                 />
                                 <button className="btn btn-primary" onClick={updateName} style={{ padding: '0.5rem' }}>Save</button>
                             </div>
