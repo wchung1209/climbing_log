@@ -388,7 +388,7 @@ export default function MainPage() {
                 </div>
 
                 {/* Right Column: Logging Form */}
-                <div className="sticky-sidebar">
+                <div>
                     <div className="card">
                         <h2 style={{ fontSize: '1.25rem', marginBottom: '1.5rem' }}>Log Session</h2>
                         <LogClimbForm userId={user?.id} onSuccess={() => fetchClimbs(user.id)} />
