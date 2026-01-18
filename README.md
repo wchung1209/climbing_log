@@ -2,7 +2,7 @@
 
 A modern, mobile-responsive web application for tracking your bouldering sessions. Visualize your progress, analyze your send rates, and keep a detailed log of every climb.
 
-* Note: This project is created by me, the owner of the GitHub repository with the use of AI tools, mainly Antigravity with Gemini 3 Pro. I did not write the bulk of the code, but I did provide all requirements and specifications for the project. This project is a work in progress and I plan to make future updates to it.
+**Note:** This project is created by me, the owner of the GitHub repository with the use of AI tools, mainly Antigravity with Gemini 3 Pro. I did not write the bulk of the code, but I did provide all requirements and specifications for the project. This project is a work in progress and I plan to make future updates to it.
 
 ![alt text](dashboard_image.png)
 
