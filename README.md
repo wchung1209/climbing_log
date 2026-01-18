@@ -2,7 +2,7 @@
 
 A modern, mobile-responsive web application for tracking your bouldering sessions. Visualize your progress, analyze your send rates, and keep a detailed log of every climb.
 
-![alt text](image-1.png)
+![alt text](dashboard_image.png)
 
 ## Features ✨
 
