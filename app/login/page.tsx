@@ -68,7 +68,7 @@ export default function LoginPage() {
         }}>
             <div className="card" style={{ width: '100%', maxWidth: '400px' }}>
                 <h2 style={{ marginBottom: '1.5rem', textAlign: 'center', color: 'var(--primary)', fontWeight: '800', letterSpacing: '-0.02em' }}>
-                    {mode === 'login' ? 'Welcome Back' : 'Join Climbing Log'}
+                    {mode === 'login' ? 'Welcome' : 'Join Climbing Log'}
                 </h2>
 
                 {error && (

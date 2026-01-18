@@ -65,7 +65,7 @@ export default function Home() {
           </div>
           <div>
             <h3 style={{ color: 'var(--text-main)', marginBottom: '0.5rem' }}>Any Grade</h3>
-            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Support for V-Scale, Font, or custom gym colors.</p>
+            <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>Support for V-Scale, Font, or custom gym colors. <br /><span style={{ fontSize: '0.75rem', fontWeight: 'bold', color: 'var(--primary)', background: 'var(--primary-light)', padding: '2px 6px', borderRadius: '4px' }}>COMING SOON</span></p>
           </div>
         </div>
       </div>
