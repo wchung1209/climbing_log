@@ -41,7 +41,7 @@ export default function ClimbChart({ data, activeTag, selectedGrades, onFilterCh
     onFilterChange: (tag: string | null, grades: string[]) => void
 }) {
 
-    const GRADE_OPTIONS = ['V0', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11+'];
+    const GRADE_OPTIONS = Array.from({ length: 18 }, (_, i) => `V${i}`); // V0-V17
 
     // Helper to parse "YYYY-MM-DD" as local date (prevents UTC shift)
     const parseLocalDate = (dateStr: string) => {
