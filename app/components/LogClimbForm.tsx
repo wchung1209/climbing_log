@@ -71,7 +71,7 @@ export default function LogClimbForm({ userId, onSuccess }: LogClimbFormProps) {
         <form onSubmit={handleSubmit} style={{ display: 'grid', gap: '1.5rem' }}>
 
             {/* Date & Grade Row */}
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '1rem' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1rem' }}>
                 <div>
                     <label className="label">Date</label>
                     <input
