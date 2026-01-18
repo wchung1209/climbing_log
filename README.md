@@ -2,8 +2,7 @@
 
 A modern, mobile-responsive web application for tracking your bouldering sessions. Visualize your progress, analyze your send rates, and keep a detailed log of every climb.
 
-![Dashboard Preview](https://placehold.co/1200x600/15803d/ffffff?text=Climbing+Log+Dashboard)
-*(Note: Replace this image link with your actual screenshot after uploading to GitHub)*
+![Dashboard Preview](![alt text](image.png))
 
 ## Features ✨
 
