@@ -26,7 +26,6 @@ export default function LogClimbForm({ userId, onSuccess }: LogClimbFormProps) {
         return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     });
     const [grade, setGrade] = useState('V0');
-    const [isCustomGrade, setIsCustomGrade] = useState(false);
     const [attempts, setAttempts] = useState(1);
     const [isSent, setIsSent] = useState(true);
     const [selectedTags, setSelectedTags] = useState<string[]>([]);
@@ -48,7 +47,7 @@ export default function LogClimbForm({ userId, onSuccess }: LogClimbFormProps) {
             user_id: userId,
             date,
             grade,
-            grade_system: isCustomGrade ? 'Custom' : 'V-scale',
+            grade_system: 'V-scale',
             attempts,
             is_sent: isSent,
             tags: selectedTags,
@@ -85,38 +84,13 @@ export default function LogClimbForm({ userId, onSuccess }: LogClimbFormProps) {
 
                 <div style={{ flex: '1 1 200px' }}>
                     <label className="label">Grade</label>
-                    {!isCustomGrade ? (
-                        <select
-                            className="input"
-                            value={grade}
-                            onChange={(e) => {
-                                if (e.target.value === 'Custom') setIsCustomGrade(true);
-                                else setGrade(e.target.value);
-                            }}
-                        >
-                            {GRADE_OPTIONS.map(g => <option key={g} value={g}>{g}</option>)}
-                            <option value="Custom">Custom...</option>
-                        </select>
-                    ) : (
-                        <div style={{ display: 'flex', gap: '0.5rem' }}>
-                            <input
-                                type="text"
-                                className="input"
-                                value={grade}
-                                onChange={e => setGrade(e.target.value)}
-                                placeholder="e.g. Red"
-                                autoFocus
-                            />
-                            <button
-                                type="button"
-                                onClick={() => { setIsCustomGrade(false); setGrade('V0'); }}
-                                className="btn btn-secondary"
-                                style={{ padding: '0.5rem' }}
-                            >
-                                <X size={16} />
-                            </button>
-                        </div>
-                    )}
+                    <select
+                        className="input"
+                        value={grade}
+                        onChange={(e) => setGrade(e.target.value)}
+                    >
+                        {GRADE_OPTIONS.map(g => <option key={g} value={g}>{g}</option>)}
+                    </select>
                 </div>
             </div>
 
