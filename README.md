@@ -4,9 +4,11 @@ A modern, mobile-responsive web application for tracking your bouldering session
 
 **Note:** This project is created by me, the owner of the GitHub repository with the use of AI tools, mainly Antigravity with Gemini 3 Pro. I did not write the bulk of the code, but I did provide all requirements and specifications for the project. This project is a work in progress and I plan to make future updates to it.
 
+[Click Here to Visit the App!](https://climbinglog.vercel.app/)
+
 ![alt text](dashboard_image.png)
 
-## Features ✨
+## Features
 
 *   **Session Logging**: Quickly log climbs with details like Grade (V0-V11+), Attempts, Sent status, and Tags (Jug, Crimp, Slab, etc.).
 *   **Visual Analytics**:
@@ -19,15 +21,16 @@ A modern, mobile-responsive web application for tracking your bouldering session
 *   **User Profiles**: Persistent display names and personalized greetings.
 *   **Secure**: Built on Supabase Auth with Row Level Security (RLS) ensuring your data is private.
 
-## Tech Stack 🛠️
+## Tech Stack
 
 *   **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
 *   **Language**: TypeScript
 *   **Styling**: Vanilla CSS (Variables, Responsive Grid, Flexbox)
 *   **Database & Auth**: [Supabase](https://supabase.com/)
 *   **Charts**: [Recharts](https://recharts.org/)
+*   **Deployment**: [Vercel](https://vercel.com/)
 
-## Getting Started 🚀
+## Getting Started
 
 ### Prerequisites
 *   Node.js 18+ installed.
